@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audi Test Reports</title>
+    <meta name="generator" content="HTMLTestRunner 1.0.18"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    <style>
+        
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body>
+<div class='heading'>
+    <h1 style="margin-left:1ex;">Audi Test Reports</h1>
+    
+    <p class='attribute'><strong>Start Time : </strong> 2022-07-06 20:06:14</p>
+    
+    <p class='attribute'><strong>Duration : </strong> 0:00:56.433292</p>
+    
+    <p class='attribute'><strong>Status : </strong> Pass 2 Error 1</p>
+    
+    <p class='attribute'><strong>Description : </strong> Audi Portal Test Reports</p>
+    
+    <p class='attribute'><strong>Tested By : </strong> Unknown</p>
+    
+</div>
+<div>
+    <p id='show_detail_line'><b>Show</b>
+        <button><a href='javascript:showCase(0)' style="color:#660066;">Summary</a></button>
+        <button><a href='javascript:showCase(1)' style="color:#660066;">Failed</a></button>
+        <button><a href='javascript:showCase(2)' style="color:#660066;">Passed</a></button>
+        <button><a href='javascript:showCase(3)' style="color:#660066;">All</a></button>
+    </p>
+    <table id='result_table'>
+        <colgroup>
+            <col align='left'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+        </colgroup>
+        <tr id='header_row'>
+            <td>Test Group/Test case</td>
+            <td>Count</td>
+            <td>Pass</td>
+            <td>Fail</td>
+            <td>Error</td>
+            <td>View</td>
+        </tr>
+        
+        <tr class='errorClass' style="font-weight:bold;color:white;">
+            <td><a href="javascript:showClassDetail('c1','3')">test_audi_portal</a></td>
+            <td>3</td>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>
+                <button><a href="javascript:showClassDetail('c1','3')"
+                           style="color:#660066;">Detail</a></button>
+            </td>
+        </tr>
+            
+            <tr id="ft1.1" class='none'>
+                <td class='errorCase'>
+                    <div class='testcase'>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.1')">test_edit_carName</a>
+                    </div>
+                </td>
+                <td colspan='5' align='center'>
+                    <div>
+                        <!--css div popup start-->
+                        <button>
+                            <a class="popup_link" onfocus='this.blur();'
+                               href="javascript:showTestDetail('div_ft1.1')" style="color:#660066;">
+                                ERROR
+                            </a></button>
+                        <div id='div_ft1.1' class="popup_window">
+                            <div style='text-align: right; color:red;cursor:pointer'>
+                                <a onfocus='this.blur();'
+                                   onclick="document.getElementById('div_ft1.1').style.display = 'none'; "
+                                   style="color:red;">
+                                    [x]</a>
+                            </div>
+                            <pre></pre>
+                            <pre style="color: red;">Traceback (most recent call last):
+  File "C:\Users\Admin\PycharmProjects\seleniumProject\test_selenium.py", line 48, in test_edit_carName
+    page.MainPage.click_Vehicle_rename(self)
+  File "C:\Users\Admin\PycharmProjects\seleniumProject\page.py", line 76, in click_Vehicle_rename
+    element = self.driver.find_element(*MainPageLocators.Vehicle_Vishal)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@title, 'Vshal')]"}
+  (Session info: chrome=102.0.5005.115)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00D4D953+2414931]
+	Ordinal0 [0x00CDF5E1+1963489]
+	Ordinal0 [0x00BCC6B8+837304]
+	Ordinal0 [0x00BF9500+1021184]
+	Ordinal0 [0x00BF979B+1021851]
+	Ordinal0 [0x00C26502+1205506]
+	Ordinal0 [0x00C144E4+1131748]
+	Ordinal0 [0x00C24812+1198098]
+	Ordinal0 [0x00C142B6+1131190]
+	Ordinal0 [0x00BEE860+976992]
+	Ordinal0 [0x00BEF756+980822]
+	GetHandleVerifier [0x00FBCC62+2510274]
+	GetHandleVerifier [0x00FAF760+2455744]
+	GetHandleVerifier [0x00DDEABA+551962]
+	GetHandleVerifier [0x00DDD916+547446]
+	Ordinal0 [0x00CE5F3B+1990459]
+	Ordinal0 [0x00CEA898+2009240]
+	Ordinal0 [0x00CEA985+2009477]
+	Ordinal0 [0x00CF3AD1+2046673]
+	BaseThreadInitThunk [0x7687FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77747A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77747A6E+238]
+
+</pre>
+                        </div>
+                        <!--css div popup end-->
+                    </div>
+                </td>
+            </tr>
+            
+            <tr id="pt1.2" class='hiddenRow'>
+                <td class='passCase'>
+                    <div class='testcase'>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_pt1.2')">test_sign_in: Going test Home Page, Login in functionality</a>
+                    </div>
+                </td>
+                <td colspan='5' align='center'>
+                    <div>
+                        <!--css div popup start-->
+                        <button>
+                            <a class="popup_link" onfocus='this.blur();'
+                               href="javascript:showTestDetail('div_pt1.2')" style="color:#660066;">
+                                PASS
+                            </a></button>
+                        <div id='div_pt1.2' class="popup_window">
+                            <div style='text-align: right; color:red;cursor:pointer'>
+                                <a onfocus='this.blur();'
+                                   onclick="document.getElementById('div_pt1.2').style.display = 'none'; "
+                                   style="color:red;">
+                                    [x]</a>
+                            </div>
+                            <pre></pre>
+                            <pre style="color: red;"></pre>
+                        </div>
+                        <!--css div popup end-->
+                    </div>
+                </td>
+            </tr>
+            
+            <tr id="pt1.3" class='hiddenRow'>
+                <td class='passCase'>
+                    <div class='testcase'>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_pt1.3')">test_sign_out</a>
+                    </div>
+                </td>
+                <td colspan='5' align='center'>
+                    <div>
+                        <!--css div popup start-->
+                        <button>
+                            <a class="popup_link" onfocus='this.blur();'
+                               href="javascript:showTestDetail('div_pt1.3')" style="color:#660066;">
+                                PASS
+                            </a></button>
+                        <div id='div_pt1.3' class="popup_window">
+                            <div style='text-align: right; color:red;cursor:pointer'>
+                                <a onfocus='this.blur();'
+                                   onclick="document.getElementById('div_pt1.3').style.display = 'none'; "
+                                   style="color:red;">
+                                    [x]</a>
+                            </div>
+                            <pre></pre>
+                            <pre style="color: red;"></pre>
+                        </div>
+                        <!--css div popup end-->
+                    </div>
+                </td>
+            </tr>
+            
+        
+
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>3</td>
+            <td>2</td>
+            <td>0</td>
+            <td>1</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</div>
+<br><br>
+<div id='ending'><b>Time Elapsed: </b>0:00:56.433292</div>
+</body>
+</html>
